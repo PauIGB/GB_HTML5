@@ -1,0 +1,157 @@
+@font-face {
+    font-family:"Socialico";
+    src:url(font/Socialico.eot),
+        url(font/Socialico.woff),
+        url(font/Socialico.ttf),
+        url(font/Socialico.svg);        
+}
+body {
+    font-family: Arial;
+/*    width: 1280px;*/
+}
+header, section {     
+    padding: 4% 0;    
+}
+/*Flex box styles*/
+.flexBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+.column {
+    padding: 0 4%;
+}
+.flexOne {
+    flex: 1;
+}
+.flexTwo {
+    flex: 2;
+    min-width: 480px;
+    box-sizing: border-box;
+}
+.plusBox {
+    min-width: 350px;
+}
+header {
+    background: #445162; 
+}
+h1, h2 {
+    margin-top: 0;  
+}
+h2 {
+    line-height: 24px;    
+}
+h1 {
+    color:  #fff;
+    font-size: 60px;  
+    font-weight: 400;
+    line-height: 45px;
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);
+    margin-top: 0;
+}
+nav ul {
+    list-style-image: url(img/check_icon.png); 
+    margin-bottom: 0;
+    
+}
+nav ul a {
+    text-decoration: none;
+    color:  #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;   
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.3);    
+}
+.logo img {
+    width: 100%;    
+}
+.about h2 {    
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;        
+}
+.about p {   
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.about video {
+    width: 430px;
+    height: 245px;
+}
+.pluses {
+    background: #f5f5f5;
+}
+.pluses h2 {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20px; 
+    text-align: center;
+}
+.pluses li {    
+    padding-left: 42px;
+    list-style-type: none;
+    background: url(img/plus_icon.png) no-repeat;
+}
+.pluses p {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;    
+}
+.reviews {
+    background: #f5f5f5;    
+}
+.reviews h2 {
+    color:  #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+}
+.review__text {
+    background: #ececec;
+}
+.review__text p {
+    color: #333;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 18px;
+}
+.review__text .author {    
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+.standard, .premium, .lux {
+    background: #425062;
+}
+.buy h3 {    
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.buy .price, .buyBtn {    
+    background: #fff;    
+}
+.buyBtn {    
+    color: #445161;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;    
+}
+.contacts {
+    background: #445162;    
+}
+.contacts i {
+    font-family:"Socialico"; 
+    
+}
